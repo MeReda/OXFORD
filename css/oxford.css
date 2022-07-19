@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+@font-face {
+  font-family: 'Typo-Grotesk';
+  src:url('Typo-Grotesk.ttf.woff') format('woff'),
+      url('Typo-Grotesk.ttf.svg#Typo-Grotesk') format('svg'),
+      url('Typo-Grotesk.ttf.eot'),
+      url('Typo-Grotesk.ttf.eot?#iefix') format('embedded-opentype'); 
+  font-weight: normal;
+  font-style: normal;
+}
+
+:root {
+  --brown : #33130a;
+  --red : #fe7e6d;
+}
+
+body {
+  width: 100%;
+}
+
+body::-webkit-scrollbar{
+  width: 0;
+}
+
+* {
+  font-family: 'Typo-Grotesk', sans-serif;
+}
+
+.special-background{
+  background-color: var(--brown);
+  background-image: url('../imgs/coffee-beans.png');
+  background-size: 35em;
+}
+
+section {
+  min-height: 100vh;
+}
+
+/* Start Nav Style */
+
+nav.navbar {
+  background-color: #00000080;
+}
+
+.navbar-brand {
+  font-family: 'Abril Fatface', cursive;
+}
+
+/* End Nav Style */
+
+/* Start landing */
+
+.landing {
+  height: 100vh;
+}
+
+.landing-img {
+  width: 60%;
+}
+
+.landing-button {
+  background-color: var(--red);
+  color: var(--brown);
+  letter-spacing: .2em;
+  padding: 1em 2em;
+  border-radius: 2em;
+  border: 1px solid var(--red);
+  outline: none;
+  transition: .3s;
+}
+
+.landing-button:hover {
+  background-color: var(--brown);
+  color: var(--red);
+}
+
+/* End landing */
+
+/* Start About section */
+
+.about-img {
+  width: 70%;
+}
+
+/* End About section */
+
+/* Start Menu Section */
+
+.pagination {
+  margin: auto;
+  width: 40%;
+}
+
+.pagination-button {
+  border: none;
+  outline: none;
+  padding: .5rem 1rem;
+  border-radius: 5em;
+  color: var(--brown);
+  transition: .3s;
+}
+
+.pagination-button.active,
+.pagination-button:hover {
+  background-color: var(--red);
+  color: white;
+}
+
+.card-menu {
+  width: 12rem;
+  color: white;
+  box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+  background-color: rgba(255, 255, 255, 0.1);
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(9px);
+}
+
+.menu-img {
+  width: 50%;
+  border-radius: 100%;
+}
+
+.card-title {
+  font-weight: bold;
+}
+
+/* End Menu Section */
