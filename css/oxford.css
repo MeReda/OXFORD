@@ -117,6 +117,10 @@ nav.navbar {
   backdrop-filter: blur(9px);
 }
 
+.hidden {
+  display: none !important;
+}
+
 .menu-img {
   width: 50%;
   border-radius: 100%;
