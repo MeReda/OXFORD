@@ -62,8 +62,8 @@ nav.navbar {
 .landing-button {
   background-color: var(--red);
   color: var(--brown);
-  letter-spacing: .2em;
-  padding: 1em 2em;
+  letter-spacing: .1em;
+  padding: .5em 1em;
   border-radius: 2em;
   border: 1px solid var(--red);
   outline: none;
@@ -130,3 +130,25 @@ nav.navbar {
 }
 
 /* End Menu Section */
+
+/* Start Testimonial Section */
+
+.testimonial .card {
+  background-color: #eee;
+}
+
+.testimonial .card img {
+  width: 5em;
+  border-radius: 15em;
+}
+
+ion-icon[name = "star"] {
+  color: yellow;
+}
+
+.carousel-control-next,
+.carousel-control-prev /*, .carousel-indicators */ {
+    filter: invert(100%);
+}
+
+/* End Testimonial Section */
