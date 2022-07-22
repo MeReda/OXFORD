@@ -1,6 +1,6 @@
 // Start Switcher Script
-let switcher = document.querySelectorAll(".menu li button");
-let rows = document.querySelectorAll(".menu .row");
+let switcher = document.querySelectorAll("#menu li button");
+let rows = document.querySelectorAll("#menu .row");
 
 for (let i = 0; i < switcher.length; i++) {
   switcher[i].addEventListener("click", () => {
@@ -15,7 +15,7 @@ for (let i = 0; i < switcher.length; i++) {
 // End Switcher Script
 
 // Start MyMap Script
-var map = L.map("map").setView([34.6565, -1.8990], 18);
+var map = L.map("map").setView([34.6565, -1.8990], 16);
 
 L.tileLayer(
   "https://api.maptiler.com/maps/streets/{z}/{x}/{y}.png?key=6KElTCjp60Yp0A1W1NzU",

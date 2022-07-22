@@ -51,7 +51,7 @@ nav.navbar {
 
 /* Start landing */
 
-.landing {
+#landing {
   height: 100vh;
 }
 
@@ -60,6 +60,7 @@ nav.navbar {
 }
 
 .landing-button {
+  text-decoration: none;
   background-color: var(--red);
   color: var(--brown);
   letter-spacing: .1em;
@@ -133,11 +134,11 @@ nav.navbar {
 
 /* Start Testimonial Section */
 
-.testimonial .card {
+#testimonial .card {
   background-color: #eee;
 }
 
-.testimonial .card img {
+#testimonial .card img {
   width: 5em;
   border-radius: 15em;
 }
@@ -170,3 +171,20 @@ ion-icon[name = "star"] {
 }
 
 /* End Location */
+
+/* Start Footer */
+
+#footer {
+  color: white;
+  font-size: 1.3em;
+}
+
+.footer-icon {
+  font-size: 1.2em;
+  background-color: var(--red);
+  color: var(--brown);
+  padding: .7em;
+  border-radius: 10em;
+}
+
+/* End Footer */

@@ -29,23 +29,23 @@
           <div class="collapse navbar-collapse" id="mynavbar">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
               <li class="nav-item me-3">
-                <a class="nav-link fs-5" href="#">About</a>
+                <a class="nav-link fs-5" href="#about">About</a>
               </li>
               <li class="nav-item me-3">
-                <a class="nav-link fs-5" href="#">Menu</a>
+                <a class="nav-link fs-5" href="#menu">Menu</a>
               </li>
               <li class="nav-item me-3">
-                <a class="nav-link fs-5" href="#">Location</a>
+                <a class="nav-link fs-5" href="#location">Location</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link fs-5" href="#">Contact</a>
+                <a class="nav-link fs-5" href="#footer">Contact</a>
               </li>
             </ul>
           </div>
         </div>
       </nav>
       <!-- landing Section -->
-      <section class="landing">
+      <section id="landing">
         <div class="container">
           <div
             class="row d-flex justify-content-center align-items-center pb-5 mt-md-5 pb-md-5"
@@ -58,7 +58,7 @@
                 exercitationem deleniti esse corrupti voluptas vitae Impedit
                 error veritatis omnis doloribus nihil
               </p>
-              <button class="landing-button">SEE MORE</button>
+              <a class="landing-button" href="#about">SEE MORE</a>
             </div>
             <div class="col-md-6 mt-5 d-flex justify-content-center">
               <img
@@ -73,7 +73,7 @@
     </div>
 
     <!-- About Section -->
-    <div class="about mt-5 pb-5">
+    <div id="about" class="mt-5 pb-5">
       <div class="container">
         <h1 class="text-center">About Us</h1>
         <div class="row mt-5 pt-5">
@@ -101,7 +101,7 @@
 
     <!-- Menu Section -->
     <div class="special-background">
-      <section class="menu">
+      <section id="menu">
         <div class="container">
           <h1 class="pt-5 text-center text-white">Popular Menu</h1>
           <ul
@@ -377,7 +377,7 @@
     </div>
 
     <!-- Testimonial Section -->
-    <section class="testimonial">
+    <section id="testimonial">
       <h1 class="text-center pt-5">What They Say ?</h1>
 
       <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
@@ -434,14 +434,43 @@
 
     </section>
 
-    <!-- Location Section -->
     <div class="special-background">
-      <section class="location">
-        <h1 class="pt-5 text-center text-white">Location</h1>
-        <div class="mymap">
-          <div id="map"></div>
+      <div class="container">
+        <!-- Location Section -->
+        <section id="location">
+          <h1 class="pt-5 text-center text-white">Location</h1>
+          <div class="mymap">
+            <div id="map"></div>
+          </div>
+        </section>
+        <!-- Footer section -->
+        <div id="footer" class="mt-5 pb-3 pt-5">
+          <div class="row">
+            <div class="col-md-3 mb-3 text-center">
+              <ion-icon name="call" class="footer-icon"></ion-icon>
+              <p class="mt-3">Our Number</p>
+              <span>+212 623-998291</span>
+            </div>
+            <div class="col-md-3 mb-3 text-center">
+              <ion-icon name="time" class="footer-icon"></ion-icon>
+              <p class="mt-3">Opening Hours</p>
+              <span>7:00am - 23:00pm</span>
+            </div>
+            <div class="col-md-3 mb-3 text-center">
+              <ion-icon name="mail" class="footer-icon"></ion-icon>
+              <p class="mt-3">Our Email</p>
+              <span>oxfordkfe@gmail,com</span>
+            </div>
+            <div class="col-md-3 text-center">
+              <ion-icon name="location" class="footer-icon"></ion-icon>
+              <p class="mt-3">Shop Location</p>
+              <span>Hay El Qods, Oujda, Morocco</span>
+            </div>
+          </div>
+          <h6 class="copyright text-center mt-5 pt-5">OXFORD website 2022 by <a href="https://github.com/MeReda" class="text-decoration-none text-white">@MeReda</a></h6>
         </div>
-      </section>
+
+      </div>
     </div>
 
     <!-- Start bootstrap script -->
