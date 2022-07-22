@@ -152,3 +152,21 @@ ion-icon[name = "star"] {
 }
 
 /* End Testimonial Section */
+
+/* Start Location */
+
+.mymap {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+#map {
+  width: 90%;
+  height: 75vh;
+  border-radius: 30px;
+}
+
+/* End Location */
