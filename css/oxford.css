@@ -15,8 +15,15 @@
   --red : #fe7e6d;
 }
 
+html {
+  scrollbar-width: none;
+}
+
 body {
   width: 100vw;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  overflow-x: hidden;
 }
 
 body::-webkit-scrollbar{
@@ -143,7 +150,8 @@ nav.navbar {
   border-radius: 15em;
 }
 
-ion-icon[name = "star"] {
+ion-icon[name = "star"],
+ion-icon[name = "star-outline"] {
   color: yellow;
 }
 
